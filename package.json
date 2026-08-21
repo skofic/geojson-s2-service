@@ -1,0 +1,17 @@
+{
+	"name": "geojson-s2-service",
+	"version": "0.1.0",
+	"private": true,
+	"description": "ArangoDB Foxx service exposing geojson-s2 (validate / repair GeoJSON geometry for Google S2) over HTTP.",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/skofic/geojson-s2-service.git"
+	},
+	"license": "MIT",
+	"scripts": {
+		"bundle": "rm -f geojson-s2-service.zip && zip -qr geojson-s2-service.zip manifest.json package.json main.js routes test README.md MILKO.md node_modules -x 'node_modules/.package-lock.json'"
+	},
+	"dependencies": {
+		"geojson-s2": "github:skofic/geojson-s2#v1.0.0"
+	}
+}

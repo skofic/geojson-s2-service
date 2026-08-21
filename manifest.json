@@ -1,0 +1,12 @@
+{
+    "name": "geojson-s2-service",
+    "version": "0.1.0",
+    "description": "Foxx wrapper around geojson-s2: validate and repair GeoJSON geometry for Google S2 / ArangoDB before it reaches a collection",
+    "engines": {
+        "arangodb": "^3.0.0"
+    },
+    "author": "Milko Škofič",
+    "license": "MIT",
+    "main": "main.js",
+    "tests": "test/**/*.js"
+}

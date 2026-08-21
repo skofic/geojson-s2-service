@@ -1,0 +1,18 @@
+# Node (dependencies are bundled into the zip at build time, never committed)
+node_modules/
+npm-debug.log*
+package-lock.json
+
+# Build output
+geojson-s2-service.zip
+
+# macOS
+.DS_Store
+._*
+
+# Editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
