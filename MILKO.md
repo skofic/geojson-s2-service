@@ -1,5 +1,7 @@
 # geojson-s2-service — maintainer notes
 
+**Cross-repository facts** (which server runs what, behind what): [`../shared/deployments.md`](../shared/deployments.md). Read it before assuming anything about a server; do not copy its content here.
+
 Foxx wrapper around the `geojson-s2` library (<https://github.com/skofic/geojson-s2>). Two POST routes, no state. Scaffolded 2026-08-21 as part of extracting `geojson-s2` and the dictionary validator out of `metadata-store` into standalone, pinned dependencies.
 
 ## Why a service, when the library runs anywhere
